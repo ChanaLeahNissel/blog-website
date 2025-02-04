@@ -4,6 +4,7 @@
     <head>
         <title>Cyber Aware</title>
         <link rel="icon" type="image/x-icon" href="https://www.svgrepo.com/show/503272/cybersecurity-two-tone.svg">
+        <link rel="stylesheet" href="StyleSheet.css" />
     </head>
 
 
@@ -13,83 +14,100 @@
                 <h1>Jane Doe's Blog</h1>
             </mark>
             <h2>
-                <a href="file:///C:/Users/clnis/OneDrive%20-%20WITS/WITS/Web%20Programming/About%20Us%20Page.html" target="_blank">About Us</a>
+                <a href="file:///C:/Users/clnis/OneDrive%20-%20WITS/WITS/Web%20Programming/Homework/Blog%20Website/About%20Us%20Page.html" target="_blank">About Us</a>
             </h2>
         </header>
-        <h2>Evolution of Ransomware and How to Protect Yourself</h2>
-        <figure>
-            <img src="https://d2h8qhew3fx4cx.cloudfront.net/client/4280/1ccfedc74fb95dbe4a75b330917b2c0f/10ecf66cdaa8851533ab1ea1f0a1f999_large.jpeg" alt="Locked computer" width="500" height="250">
-            <figcaption>Secure Computer</figcaption>
-        </figure>
-        <section>
-            <header>
-                <h3>What Is Ransomware?</h3>
-                <p>Imagine logging into your computer one day only to find that all your files—pictures, homework, and even your favorite games—are locked. A scary message pops up saying you have to pay money to get them back. This is ransomware, a type of malware (malicious software) used by cybercriminals to extort money from victims.</p>
-            </header>
-        </section>
-        <section>
-            <h3>A Brief History of Ransomware</h3>
-            <p>Ransomware has come a long way since it first appeared. In 1989, the first ransomware, called the AIDS Trojan, was distributed through floppy disks. The ransom? A payment sent by mail!</p>
-            <p>Fast forward to the 2010s, and ransomware evolved to target businesses, hospitals, and even government systems. Hackers started demanding payments in Bitcoin, a type of cryptocurrency, because it’s harder to trace. One of the most infamous ransomware attacks, WannaCry in 2017, infected hundreds of thousands of computers worldwide in just a few days.</p>
-            <p>Today, ransomware is more sophisticated. Hackers may threaten to leak sensitive data online if the ransom isn’t paid. This double-threat tactic makes it even more dangerous.</p>
-        </section>
-        <section>
-            <h3>How Does Ransomware Spread?</h3>
-            <figure>
-                <img src="https://d2h8qhew3fx4cx.cloudfront.net/client/4280/4fc921b5b9c2054cbfbade6010af731d/173d1473e10ac6fc35e09e150dd860fb_large.jpeg" alt="Hacker" width="500" height="388">
-                <figcaption>Malicious Hacker</figcaption>
-            </figure>
-            <p>Ransomware can sneak into your system in many ways:</p>
-            <ul>
-                <li>Phishing Emails: Hackers send fake emails designed to look legitimate, tricking you into clicking a malicious link or downloading a harmful attachment. These emails often use urgent or enticing language, like pretending to be from your bank or a popular service.</li>
-                <li>Malicious Websites: Some websites are set up specifically to install malware on your device. These can be disguised as free download sites, pop-up ads, or even fake news articles.</li>
-                <li>Software Vulnerabilities: When your software isn't updated, it can contain bugs or weak points that hackers exploit to gain access to your system. Keeping your apps and operating system up to date is critical to staying safe.</li>
-            </ul>
-        </section>
-        <section>
-            <h3>How to Protect Yourself</h3>
-            <p>Here are some easy ways to keep ransomware out of your life:</p>
-            <ol>
-                <li><strong>Think Before You Click:</strong> Don’t click on links or open attachments from unknown sources. Always check if an email is legit by looking at the sender’s address. For example, an email from your bank should come from an official domain like <yourbank.com>, not something suspicious like <yourbank-support123.net>. Also, hover over links to see where they lead before clicking.</li>
-                <li><strong>Keep Software Updated:</strong> Regularly update your operating system, browser, and apps to fix security issues.</li>
-                <li><strong>Use Antivirus Software:</strong> Install a reputable antivirus program and keep it updated.</li>
-                <li><strong>Backup Your Files:</strong> Save important files to an external drive or cloud storage. This way, you won’t lose them even if ransomware strikes.</li>
-                <li><strong>Avoid Public Wi-Fi:</strong> Hackers often use public Wi-Fi networks to spread malware. Use a VPN (Virtual Private Network) if you need to connect.</li>
-            </ol>
-        </section>
-        <section>
-            <h3>What If You’re Attacked?</h3>
-            <p>If you ever become a victim of ransomware:</p>
-            <ul>
-                <li><strong>Don’t Pay the Ransom:</strong> There’s no guarantee the hackers will unlock your files, and it encourages them to keep attacking others.</li>
-                <li><strong>Disconnect Your Device:</strong> Immediately unplug your device from the internet to stop the malware from spreading</li>
-                <li><strong>Report the Incident:</strong> Contact a trusted organization and report the attack to authorities, like the FBI’s Internet Crime Complaint Center (<a href="https://www.ic3.gov" target="_blank">https://www.ic3.gov</a>).</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Learn More</h3>
-            <p>Want to dive deeper into cybersecurity? Check out these helpful resources:</p>
-            <ul>
-                <li><a href="https://www.staysafeonline.org/" target="_blank">National Cybersecurity Alliance</a></li>                          
-                <li><a href="https://www.cisa.gov/" target="_blank">Cybersecurity & Infrastructure Security Agency (CISA)</a></li>
-            </ul>
-            <p>By staying alert and following these tips, you can reduce your chances of falling victim to ransomware. Remember, cybersecurity is all about being proactive!</p>
-                                                                                    <!--Make a border line separating this and the next section-->
-        </section>
-        <hr>
-        <section>
-            <h3>Stay Updated</h3>
-            <p>Want to know when a new blog is posted? Sign up below to receive updates directly to your email:</p>
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
+        <div class="container">
+            <aside class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="#section1">What is Ransomware?</a></li>
+                        <li><a href="#section2">A Brief History of Ransomware</a></li>
+                        <li><a href="#section3">How Does Ransomware Spread?</a></li>
+                        <li><a href="#section4">How to Protect Yourself</a></li>
+                        <li><a href="#section5">What If You're Attacked?</a></li>
+                        <li><a href="#section6">Learn More</a></li>
+                        <li><a href="#section7">Stay Updated</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="content">
+                <h2>Evolution of Ransomware and How to Protect Yourself</h2>
+                <figure>
+                    <img src="https://d2h8qhew3fx4cx.cloudfront.net/client/4280/1ccfedc74fb95dbe4a75b330917b2c0f/10ecf66cdaa8851533ab1ea1f0a1f999_large.jpeg" alt="Locked computer" width="500" height="250">
+                    <figcaption>Secure Computer</figcaption>
+                </figure>
+                <section id="section1">
+                    <h3>What Is Ransomware?</h3>
+                    <p>Imagine logging into your computer one day only to find that all your files—pictures, homework, and even your favorite games—are locked. A scary message pops up saying you have to pay money to get them back. This is ransomware, a type of malware (malicious software) used by cybercriminals to extort money from victims.</p>
+                </section>
+                <section id="section2">
+                    <h3>A Brief History of Ransomware</h3>
+                    <p>Ransomware has come a long way since it first appeared. In 1989, the first ransomware, called the AIDS Trojan, was distributed through floppy disks. The ransom? A payment sent by mail!</p>
+                    <p>Fast forward to the 2010s, and ransomware evolved to target businesses, hospitals, and even government systems. Hackers started demanding payments in Bitcoin, a type of cryptocurrency, because it’s harder to trace. One of the most infamous ransomware attacks, WannaCry in 2017, infected hundreds of thousands of computers worldwide in just a few days.</p>
+                    <p>Today, ransomware is more sophisticated. Hackers may threaten to leak sensitive data online if the ransom isn’t paid. This double-threat tactic makes it even more dangerous.</p>
+                </section>
+                <section id="section3">
+                    <h3>How Does Ransomware Spread?</h3>
+                    <figure>
+                        <img src="https://d2h8qhew3fx4cx.cloudfront.net/client/4280/4fc921b5b9c2054cbfbade6010af731d/173d1473e10ac6fc35e09e150dd860fb_large.jpeg" alt="Hacker" width="500" height="388">
+                        <figcaption>Malicious Hacker</figcaption>
+                    </figure>
+                    <p>Ransomware can sneak into your system in many ways:</p>
+                    <ul>
+                        <li>Phishing Emails: Hackers send fake emails designed to look legitimate, tricking you into clicking a malicious link or downloading a harmful attachment. These emails often use urgent or enticing language, like pretending to be from your bank or a popular service.</li>
+                        <li>Malicious Websites: Some websites are set up specifically to install malware on your device. These can be disguised as free download sites, pop-up ads, or even fake news articles.</li>
+                        <li>Software Vulnerabilities: When your software isn't updated, it can contain bugs or weak points that hackers exploit to gain access to your system. Keeping your apps and operating system up to date is critical to staying safe.</li>
+                    </ul>
+                </section>
+                <section id="section4">
+                    <h3>How to Protect Yourself</h3>
+                    <p>Here are some easy ways to keep ransomware out of your life:</p>
+                    <ol>
+                        <li><strong>Think Before You Click:</strong> Don’t click on links or open attachments from unknown sources. Always check if an email is legit by looking at the sender’s address. For example, an email from your bank should come from an official domain like <yourbank.com>, not something suspicious like <yourbank-support123.net>. Also, hover over links to see where they lead before clicking.</li>
+                        <li><strong>Keep Software Updated:</strong> Regularly update your operating system, browser, and apps to fix security issues.</li>
+                        <li><strong>Use Antivirus Software:</strong> Install a reputable antivirus program and keep it updated.</li>
+                        <li><strong>Backup Your Files:</strong> Save important files to an external drive or cloud storage. This way, you won’t lose them even if ransomware strikes.</li>
+                        <li><strong>Avoid Public Wi-Fi:</strong> Hackers often use public Wi-Fi networks to spread malware. Use a VPN (Virtual Private Network) if you need to connect.</li>
+                    </ol>
+                </section>
+                <section id="section5">
+                    <h3>What If You’re Attacked?</h3>
+                    <p>If you ever become a victim of ransomware:</p>
+                    <ul>
+                        <li><strong>Don’t Pay the Ransom:</strong> There’s no guarantee the hackers will unlock your files, and it encourages them to keep attacking others.</li>
+                        <li><strong>Disconnect Your Device:</strong> Immediately unplug your device from the internet to stop the malware from spreading</li>
+                        <li><strong>Report the Incident:</strong> Contact a trusted organization and report the attack to authorities, like the FBI’s Internet Crime Complaint Center (<a href="https://www.ic3.gov" target="_blank">https://www.ic3.gov</a>).</li>
+                    </ul>
+                </section>
+                <section id="section6">
+                    <h3>Learn More</h3>
+                    <p>Want to dive deeper into cybersecurity? Check out these helpful resources:</p>
+                    <ul>
+                        <li><a href="https://www.staysafeonline.org/" target="_blank">National Cybersecurity Alliance</a></li>                          
+                        <li><a href="https://www.cisa.gov/" target="_blank">Cybersecurity & Infrastructure Security Agency (CISA)</a></li>
+                    </ul>
+                    <p>By staying alert and following these tips, you can reduce your chances of falling victim to ransomware. Remember, cybersecurity is all about being proactive!</p>
+                                                                                            <!--Make a border line separating this and the next section-->
+                </section>
+                <hr>
+                <section id="section7">
+                    <h3>Stay Updated</h3>
+                    <p>Want to know when a new blog is posted? Sign up below to receive updates directly to your email:</p>
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                        <input type="submit" value="Submit" class="button">
+                    </form>
+                </section>
+        </main>
+        </div>
         <footer>
             <p>© 2025 Jane Doe | <a href="mailto:janedoe@example.com?subject=Subscribe%20to%20blogs">janedoe@example.com</a></p>
         </footer>
     </body>
 </html>
+
+
