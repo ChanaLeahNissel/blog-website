@@ -76,3 +76,7 @@ a:focus{
 .button:active{
     background-color: lightgrey;
 }
+
+#creepyImage{
+    filter: invert(70%) brightness(50%);
+}
